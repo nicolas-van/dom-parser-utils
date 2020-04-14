@@ -1,6 +1,6 @@
 {
   "name": "dom-parser-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utilities on top of DOMParser",
   "main": "dist/dom-parser-utils.bundle.js",
   "author": "Nicolas Vanhoren",

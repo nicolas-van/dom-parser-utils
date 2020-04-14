@@ -12,11 +12,9 @@ const assert = (cond, txt) => {
  * @returns {Array} A list of node elements
  */
 export function htmlFragment (str) {
-  const doc = new DOMParser().parseFromString(str, 'text/html')
-  assert(doc, 'Invalid HTML document')
-  const body = doc.querySelector('body')
-  assert(body, 'Invalid HTML document')
-  return Array.from(body.children)
+  const div = document.createElement('div')
+  div.innerHTML = str
+  return Array.from(div.children)
 }
 
 /**
