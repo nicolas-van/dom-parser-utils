@@ -1,0 +1,39 @@
+{
+  "name": "dom-parser-utils",
+  "version": "0.0.0",
+  "description": "Utilities on top of DOMParser",
+  "main": "dist/dom-parser-utils.bundle.js",
+  "author": "Nicolas Vanhoren",
+  "license": "MIT",
+  "keywords": [
+    "domparser",
+    "utils",
+    "dom",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicolas-van/dom-parser-utils.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src/**.js *.js",
+    "jest": "jest",
+    "test": "npm run lint && jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^22.4.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
